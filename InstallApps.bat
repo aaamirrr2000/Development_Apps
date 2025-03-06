@@ -18,6 +18,8 @@ winget install -e --id 9PCKT2B7DZMW
 winget install -e --id SoftDeluxe.FreeDownloadManager
 winget install JanDeDobbeleer.OhMyPosh -s winget
 winget upgrade JanDeDobbeleer.OhMyPosh -s winget
+oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\jandedobbeleer.omp.json" | Invoke-Expression
+(@(& 'C:/Users/Aamir Rashid/AppData/Local/Programs/oh-my-posh/bin/oh-my-posh.exe' init pwsh --config='C:\Users\Aamir Rashid\AppData\Local\Programs\oh-my-posh\themes\jandedobbeleer.omp.json' --print) -join "`n") | Invoke-Expression
 
 echo Press any key to continue...
 pause >nul
