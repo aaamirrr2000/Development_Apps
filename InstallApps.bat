@@ -16,6 +16,8 @@ winget install -e --id Zoom.Zoom
 winget install -e --id 9NKSQGP7F2NH
 winget install -e --id 9PCKT2B7DZMW
 winget install -e --id SoftDeluxe.FreeDownloadManager
+winget install JanDeDobbeleer.OhMyPosh -s winget
+winget upgrade JanDeDobbeleer.OhMyPosh -s winget
 
 echo Press any key to continue...
 pause >nul
